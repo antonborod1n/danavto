@@ -1,0 +1,27 @@
+/* COLOR */
+$main: #1e2c41;
+$blue: #042a63;
+$blueLight: #154a99;
+$blueText: #87b6ff;
+$border: #154a99;
+$white: #ffffff;
+
+/* BUTTON */
+%btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $white;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 16px 20px;
+  border-radius: 2px;
+  border: 1px solid $blueText;
+  background-color: transparent;
+  cursor: pointer;
+  transition: border 0.3s;
+  &:hover {
+    border: 1px solid $white;
+  }
+}
